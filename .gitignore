@@ -1,0 +1,5 @@
+.DS_Store
+tools/out/
+.release/
+notes/research/mechanics.md
+__pycache__/

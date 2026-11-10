@@ -1,0 +1,28 @@
+## Interface: 16001
+## Title: Skyhex
+## Notes: A hex gem puzzle to play while you fly. Your board waits for you between flights.
+## Author: lovelaced
+## Version: @project-version@
+## IconTexture: Interface\AddOns\Skyhex\Media\Icon
+## AddonCompartmentFunc: Skyhex_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: Skyhex_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: Skyhex_OnAddonCompartmentLeave
+## SavedVariables: SkyhexDB
+## X-License: GPL-3.0-or-later
+
+Engine\Rng.lua
+Engine\Grid.lua
+Engine\Pieces.lua
+Engine\Detect.lua
+Engine\Search.lua
+Engine\Game.lua
+Engine\Codec.lua
+Engine\Scenes.lua
+
+UI\Media.lua
+UI\Board.lua
+UI\Player.lua
+UI\Window.lua
+Flight.lua
+Options.lua
+Core.lua
